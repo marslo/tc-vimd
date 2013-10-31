@@ -30,6 +30,6 @@ The configurations about ViAtc(TC) AND Everything
 
 # Screenshots:
 ## Total Command
-![VIATC_Marslo](https://github.com/woainvzu/TC_ViATc--Everything_Configu_Marslo/blob/master/Images/Total_Command.png?raw=true)
+![VIATC_Marslo](https://github.com/Marslo/ViATc_Everything/blob/master/Images/Total_Command.png?raw=true)
 ## Everything
-![Everything_Marslo](https://github.com/woainvzu/TC_ViATc--Everything_Configu_Marslo/blob/master/Images/Everything.png?raw=true)
+![Everything_Marslo](https://github.com/Marslo/ViATc_Everything/blob/master/Images/Everything.png?raw=true)
