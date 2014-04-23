@@ -8,10 +8,13 @@ The configurations about ViAtc(TC) AND Everything
 - Copy the foler **GHISLER** from **Roaming** to `%APPDATA%`
 - Copy the files under the foler **totalcmd** to the TC installation folder (C:\Program Files\totalcmd)
 
+## ViATc Settings
+- Input `:setting`
+
 ## Customized Shortcuts:
 - **e**: Edit file
 - **h**: Go to Parent foler
-- **l**: Enter
+- <del>**l**: Enter</del>
 - **gr**: Go to Root foler (c:\)
 - **F2**: Rename Signle file
 - **F4**: Open Context Menu
