@@ -122,6 +122,8 @@
 
 	;ff复制到剪切板 fz剪切到剪切板 fv粘贴
 	vim.map("ff","<cm_CopyToClipboard>","TTOTAL_CMD")
+	vim.map("fs","<cm_CompareFilesByContent>","TTOTAL_CMD")
+	vim.map("fa","<cm_CompareDirs>","TTOTAL_CMD")
 	vim.map("fz","<cm_CutToClipboard>","TTOTAL_CMD")
 	vim.map("fv","<cm_PasteFromClipboard>","TTOTAL_CMD")
 
