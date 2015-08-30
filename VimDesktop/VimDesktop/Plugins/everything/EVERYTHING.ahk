@@ -1,5 +1,5 @@
 ﻿EVERYTHING:
-global everythingpath:="C:\Marslo\MyProgramFiles\Everything\Everything.exe"
+global everythingpath:="C:\Marslo\MarsloProgramFiles\Everything\Everything.exe"
 global everything2exec="C:\Marslo\MyProgramFiles\Vim\vim74\gvim.exe"
 
 ;vim.Comment("<EVERYTHING_打开路径>","EVERYTHING_打开路径")
@@ -80,6 +80,7 @@ vim.map("8","<8>","EVERYTHING")
 vim.map("9","<9>","EVERYTHING")
 ;vim.map("f","<运行且激活程序Everything>","EVERYTHING")
 ;vim.map("<lwin>f","<ToggleEverything>")
+vim.map("<F1>","<ToggleEverything>")
 
 vim.mode("insert","EVERYTHING")
 vim.map("<esc>","<Normal_Mode_EVERYTHING>","EVERYTHING")
