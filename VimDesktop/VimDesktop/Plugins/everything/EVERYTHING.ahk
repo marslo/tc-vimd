@@ -1,93 +1,95 @@
 ﻿EVERYTHING:
-global everythingpath:="C:\Marslo\MarsloProgramFiles\Everything\Everything.exe"
-global everything2exec="C:\Marslo\MyProgramFiles\Vim\vim74\gvim.exe"
+    global everythingpath:="C:\Marslo\MyProgramFiles\Everything\Everything.exe"
+    global everything2exec="C:\Marslo\MyProgramFiles\Vim\vim74\gvim.exe"
 
-;vim.Comment("<EVERYTHING_打开路径>","EVERYTHING_打开路径")
-;vim.comment("<EVERYTHING_复制完整路径>","EVERYTHING_复制完整路径")
-;vim.comment("<EVERYTHING_按名称排序>","EVERYTHING_按名称排序")
-;vim.comment("<EVERYTHING_按更新时间排序>","EVERYTHING_按更新时间排序")
-;vim.comment("<EVERYTHING_按路径排序>","EVERYTHING_按路径排序")
-;vim.comment("<EVERYTHING_按类型排序>","EVERYTHING_按类型排序")
-;vim.comment("<EVERYTHING_按运行次数排序>","EVERYTHING_按运行次数排序")
+    vim.Comment("<EVERYTHING_打开路径>","EVERYTHING_打开路径")
+    vim.comment("<EVERYTHING_复制完整路径>","EVERYTHING_复制完整路径")
+    vim.comment("<EVERYTHING_按名称排序>","EVERYTHING_按名称排序")
+    vim.comment("<EVERYTHING_按更新时间排序>","EVERYTHING_按更新时间排序")
+    vim.comment("<EVERYTHING_按路径排序>","EVERYTHING_按路径排序")
+    vim.comment("<EVERYTHING_按类型排序>","EVERYTHING_按类型排序")
+    vim.comment("<EVERYTHING_按运行次数排序>","EVERYTHING_按运行次数排序")
 
-vim.mode("normal","EVERYTHING")
-vim.map("i","<Insert_Mode_EVERYTHING>","EVERYTHING")
+    ; vim.SetWin("EVERYTHING", , "Everything.exe")
+    vim.SetWin("EVERYTHING", "EVERYTHING", "")
+    vim.mode("normal","EVERYTHING")
+    vim.map("i","<Insert_Mode_EVERYTHING>","EVERYTHING")
 
-vim.map("?a","<EVERYTHING_排序>","EVERYTHING")
-vim.map("?s","<EVERYTHING_搜索>","Everything")
-vim.map("?.","<EVERYTHING_搜索文件大小>","Everything")
-vim.map("?g","<EVERYTHING_跳转控件>","Everything")
-vim.map("?o","<EVERYTHING_打开>","Everything")
-vim.map("?y","<EVERYTHING_复制>","Everything")
+    vim.map("?a","<EVERYTHING_排序>","EVERYTHING")
+    vim.map("?s","<EVERYTHING_搜索>","Everything")
+    vim.map("?.","<EVERYTHING_搜索文件大小>","Everything")
+    vim.map("?g","<EVERYTHING_跳转控件>","Everything")
+    vim.map("?o","<EVERYTHING_打开>","Everything")
+    vim.map("?y","<EVERYTHING_复制>","Everything")
 
-vim.map("op","<EVERYTHING_打开路径>","EVERYTHING")
+    vim.map("op","<EVERYTHING_打开路径>","EVERYTHING")
 
-vim.map("yp","<EVERYTHING_复制完整路径>","EVERYTHING")
+    vim.map("yp","<EVERYTHING_复制完整路径>","EVERYTHING")
 
-vim.map("sx","<EVERYTHING_搜索内容>","Everything")
-vim.map("su","<EVERYTHING_搜索音频>","Everything")
-vim.map("sn","<EVERYTHING_搜索清除>","EVERYTHING")
-vim.map("sz","<EVERYTHING_搜索压缩>","EVERYTHING")
-vim.map("sd","<EVERYTHING_搜索文档>","EVERYTHING")
-vim.map("se","<EVERYTHING_搜索可执行>","EVERYTHING")
-vim.map("sf","<EVERYTHING_搜索文件夹>","EVERYTHING")
-vim.map("si","<EVERYTHING_搜索文件>","EVERYTHING")
-vim.map("sp","<EVERYTHING_搜索图像>","EVERYTHING")
-vim.map("sv","<EVERYTHING_搜索视频>","EVERYTHING")
-vim.map("s1","<EVERYTHING_搜索一级父文件夹>","EVERYTHING")
-vim.map("s2","<EVERYTHING_搜索二级父文件夹>","EVERYTHING")
-vim.map("s3","<EVERYTHING_搜索三级父文件夹>","EVERYTHING")
-
-
-vim.map(".t","<EVERYTHING_搜索文件大小10K>","EVERYTHING")
-vim.map(".s","<EVERYTHING_搜索文件大小100K>","EVERYTHING")
-vim.map(".m","<EVERYTHING_搜索文件大小1M>","EVERYTHING")
-vim.map(".l","<EVERYTHING_搜索文件大小16M>","EVERYTHING")
-vim.map(".g","<EVERYTHING_搜索文件大小128M>","EVERYTHING")
+    vim.map("sx","<EVERYTHING_搜索内容>","Everything")
+    vim.map("su","<EVERYTHING_搜索音频>","Everything")
+    vim.map("sn","<EVERYTHING_搜索清除>","EVERYTHING")
+    vim.map("sz","<EVERYTHING_搜索压缩>","EVERYTHING")
+    vim.map("sd","<EVERYTHING_搜索文档>","EVERYTHING")
+    vim.map("se","<EVERYTHING_搜索可执行>","EVERYTHING")
+    vim.map("sf","<EVERYTHING_搜索文件夹>","EVERYTHING")
+    vim.map("si","<EVERYTHING_搜索文件>","EVERYTHING")
+    vim.map("sp","<EVERYTHING_搜索图像>","EVERYTHING")
+    vim.map("sv","<EVERYTHING_搜索视频>","EVERYTHING")
+    vim.map("s1","<EVERYTHING_搜索一级父文件夹>","EVERYTHING")
+    vim.map("s2","<EVERYTHING_搜索二级父文件夹>","EVERYTHING")
+    vim.map("s3","<EVERYTHING_搜索三级父文件夹>","EVERYTHING")
 
 
+    vim.map(".t","<EVERYTHING_搜索文件大小10K>","EVERYTHING")
+    vim.map(".s","<EVERYTHING_搜索文件大小100K>","EVERYTHING")
+    vim.map(".m","<EVERYTHING_搜索文件大小1M>","EVERYTHING")
+    vim.map(".l","<EVERYTHING_搜索文件大小16M>","EVERYTHING")
+    vim.map(".g","<EVERYTHING_搜索文件大小128M>","EVERYTHING")
 
 
-vim.map("ai","<EVERYTHING_按名称排序>","EVERYTHING")
-vim.map("au","<EVERYTHING_按更新时间排序>","EVERYTHING")
-vim.map("ap","<EVERYTHING_按路径排序>","EVERYTHING")
-vim.map("at","<EVERYTHING_按类型排序>","EVERYTHING")
-vim.map("ac","<EVERYTHING_按运行次数排序>","EVERYTHING")
-vim.map("as","<EVERYTHING_按尺寸排序>","EVERYTHING")
-vim.map("ae","<EVERYTHING_按扩展名排序>","EVERYTHING")
-;导航
-vim.map("ge","<EVERYTHING_跳转至搜索框>","EVERYTHING")
-vim.map("<ctrl>l","<EVERYTHING_跳转至搜索框>","EVERYTHING")
-vim.map("gl","<EVERYTHING_跳转至搜索列表>","EVERYTHING")
-
-vim.map("j","<EVERYTHING_向下>","EVERYTHING")
-vim.map("k","<EVERYTHING_向上>","EVERYTHING")
-vim.map("J","<EVERYTHING_向下选择>","EVERYTHING")
-vim.map("K","<EVERYTHING_向上选择>","EVERYTHING")
-vim.map("gg","<EVERYTHING_移动到第一行>","EVERYTHING")
-vim.map("G","<EVERYTHING_移动到最后行>","EVERYTHING")
-vim.map("e","<EVERYTHING_使用指定程序打开>","EVERYTHING")
-
-vim.map("0","<0>","EVERYTHING")
-vim.map("1","<1>","EVERYTHING")
-vim.map("2","<2>","EVERYTHING")
-vim.map("3","<3>","EVERYTHING")
-vim.map("4","<4>","EVERYTHING")
-vim.map("5","<5>","EVERYTHING")
-vim.map("6","<6>","EVERYTHING")
-vim.map("7","<7>","EVERYTHING")
-vim.map("8","<8>","EVERYTHING")
-vim.map("9","<9>","EVERYTHING")
-;vim.map("f","<运行且激活程序Everything>","EVERYTHING")
-;vim.map("<lwin>f","<ToggleEverything>")
-vim.map("<F1>","<ToggleEverything>")
-
-vim.mode("insert","EVERYTHING")
-vim.map("<esc>","<Normal_Mode_EVERYTHING>","EVERYTHING")
 
 
-vim.mode("normal","EVERYTHING")
-;gosub,<normalmode_LED1>
+    vim.map("ai","<EVERYTHING_按名称排序>","EVERYTHING")
+    vim.map("au","<EVERYTHING_按更新时间排序>","EVERYTHING")
+    vim.map("ap","<EVERYTHING_按路径排序>","EVERYTHING")
+    vim.map("at","<EVERYTHING_按类型排序>","EVERYTHING")
+    vim.map("ac","<EVERYTHING_按运行次数排序>","EVERYTHING")
+    vim.map("as","<EVERYTHING_按尺寸排序>","EVERYTHING")
+    vim.map("ae","<EVERYTHING_按扩展名排序>","EVERYTHING")
+    ;导航
+    vim.map("ge","<EVERYTHING_跳转至搜索框>","EVERYTHING")
+    vim.map("<ctrl>l","<EVERYTHING_跳转至搜索框>","EVERYTHING")
+    vim.map("gl","<EVERYTHING_跳转至搜索列表>","EVERYTHING")
+
+    vim.map("j","<EVERYTHING_向下>","EVERYTHING")
+    vim.map("k","<EVERYTHING_向上>","EVERYTHING")
+    vim.map("J","<EVERYTHING_向下选择>","EVERYTHING")
+    vim.map("K","<EVERYTHING_向上选择>","EVERYTHING")
+    vim.map("gg","<EVERYTHING_移动到第一行>","EVERYTHING")
+    vim.map("G","<EVERYTHING_移动到最后行>","EVERYTHING")
+    vim.map("e","<EVERYTHING_使用指定程序打开>","EVERYTHING")
+
+    vim.map("0","<0>","EVERYTHING")
+    vim.map("1","<1>","EVERYTHING")
+    vim.map("2","<2>","EVERYTHING")
+    vim.map("3","<3>","EVERYTHING")
+    vim.map("4","<4>","EVERYTHING")
+    vim.map("5","<5>","EVERYTHING")
+    vim.map("6","<6>","EVERYTHING")
+    vim.map("7","<7>","EVERYTHING")
+    vim.map("8","<8>","EVERYTHING")
+    vim.map("9","<9>","EVERYTHING")
+    ;vim.map("f","<运行且激活程序Everything>","EVERYTHING")
+    ;vim.map("<lwin>f","<ToggleEverything>")
+    vim.map("<F1>","<ToggleEverything>")
+
+    vim.mode("insert","EVERYTHING")
+    vim.map("<esc>","<Normal_Mode_EVERYTHING>","EVERYTHING")
+
+
+    vim.mode("normal","EVERYTHING")
+    ;gosub,<normalmode_LED1>
 Return
 
 EVERYTHING_CheckMode()
