@@ -27,9 +27,9 @@ The configurations about ViAtc(TC) AND Everything
 First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ctrl + P** check as below:
 ![everything-ini-location](https://github.com/Marslo/ViATc_Everything/blob/master/Images/everything-ini-location.png?raw=true)
 
-- If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then
+- If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then    
   Copy the folder **Everything** under **Roaming** to `%APPDATA%`
-- If NOT-CHECK this check box, then
+- If NOT-CHECK this check box, then    
   Copy the **Everything.ini** under foler **Everything** to everything installation folder (C:\Program Files\Everything)
 
 
