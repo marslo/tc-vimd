@@ -24,7 +24,8 @@ The configurations about ViAtc(TC) AND Everything
 
 # Everything:
 ## File localtion:
-<font color=#FF0000>PLEASE BACKUP YOUR CONFIG FILE FIRST!</font>
+## PLEASE BACKUP YOUR CONFIG FILE FIRST!
+
 First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ctrl + P** check as below:
 ![everything-ini-location](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/everything-ini-location.png?raw=true)
 
