@@ -24,14 +24,14 @@ The configurations about ViAtc(TC) AND Everything
 
 # Everything:
 ## File localtion:
+<font color=#FF0000>PLEASE BACKUP YOUR CONFIG FILE FIRST!</font>
 First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ctrl + P** check as below:
-![everything-ini-location](https://github.com/Marslo/ViATc_Everything/blob/master/Images/everything-ini-location.png?raw=true)
+![everything-ini-location](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/everything-ini-location.png?raw=true)
 
 - If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then    
-  Copy the folder **Everything** under **Roaming** to `%APPDATA%`
+  Copy `TC-VimDesktop_Everything\Everything\APPDATA\Everything\Everything.ini` to `%APPDATA%\Everything`
 - If NOT-CHECK this check box, then    
-  Copy the **Everything.ini** under foler **Everything** to everything installation folder (C:\Program Files\Everything)
-
+  Copy `TC-VimDesktop_Everything\Everything\MyProgrammes\Everything\Everything.ini` to everything installation folder (e.g.: C:\Program Files\Everything)
 
 ## Customized Shortcuts:
 - <del>**Alt + a**: trigger</del>
@@ -40,6 +40,6 @@ First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ct
 
 # Screenshots:
 ## Total Command
-![VIATC_Marslo](https://github.com/Marslo/ViATc_Everything/blob/master/Images/Total_Command.png?raw=true)
+![VIATC_Marslo](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/Total_Command.png?raw=true)
 ## Everything
-![Everything_Marslo](https://github.com/Marslo/ViATc_Everything/blob/master/Images/Everything.png?raw=true)
+![Everything_Marslo](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/Everything.png?raw=true)
