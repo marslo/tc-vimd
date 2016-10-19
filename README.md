@@ -36,7 +36,7 @@ First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ct
 
 ## Customized Shortcuts:
 - <del>**Alt + a**: trigger</del>
-- **<F1>: trigger**
+- **F1**: trigger
 
 
 # Screenshots:
