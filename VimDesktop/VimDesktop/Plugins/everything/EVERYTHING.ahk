@@ -1,6 +1,6 @@
 ﻿EVERYTHING:
     global everythingpath:="C:\Marslo\MyProgramFiles\Everything\Everything.exe"
-    global everything2exec="C:\Marslo\MyProgramFiles\Vim\vim74\gvim.exe"
+    global everything2exec="C:\Marslo\MyProgramFiles\Vim\vim80\gvim.exe"
 
     vim.Comment("<EVERYTHING_打开路径>","EVERYTHING_打开路径")
     vim.comment("<EVERYTHING_复制完整路径>","EVERYTHING_复制完整路径")
