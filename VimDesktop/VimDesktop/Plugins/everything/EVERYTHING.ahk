@@ -47,9 +47,6 @@
     vim.map(".l","<EVERYTHING_搜索文件大小16M>","EVERYTHING")
     vim.map(".g","<EVERYTHING_搜索文件大小128M>","EVERYTHING")
 
-
-
-
     vim.map("ai","<EVERYTHING_按名称排序>","EVERYTHING")
     vim.map("au","<EVERYTHING_按更新时间排序>","EVERYTHING")
     vim.map("ap","<EVERYTHING_按路径排序>","EVERYTHING")
@@ -106,8 +103,6 @@ EVERYTHING_CheckMode()
 
 
 ;快捷键设定为Win+f
-
-
 
 <Normal_Mode_EVERYTHING>:
     Send,{Esc}

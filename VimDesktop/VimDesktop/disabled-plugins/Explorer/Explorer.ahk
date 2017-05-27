@@ -34,7 +34,7 @@ Explorer:
     vim.mode("normal", "Explorer")
 
     vim.map("i", "<Explorer_InsertMode>", "Explorer")
-
+    
     vim.map("j", "<down>", "Explorer")
     vim.map("k", "<up>", "Explorer")
     vim.map("h", "<Explorer_GotoParent>", "Explorer")
