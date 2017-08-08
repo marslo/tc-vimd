@@ -47,10 +47,10 @@ Launchy
 <w-o>=<TC_OpenTCDialog>
 <w-c>=run|explorer
 <w-j>=<RunZ>
+;<w-u>=run|..\RunZ\RunZ.ahk
 <w-`>=run|control
 ;<w-f>=run|firefox
-;<w-q>=run|c:\mine\app\msys2\usr\bin\mintty -t " " -e /usr/bin/ssh -q -t -p 50248 127.0.0.1 'NOTMUX=1 zsh'
-;<w-w>=run|c:\mine\app\bash\bash_here.exe 1
+;<w-w>=run|mintty -e ~/.bin/tmux_starter
 ;<w-a>=run|c:\mine\app\foobar2000\foobar2000.exe
 ;<w-v>=run|C:\ProgramData\Microsoft\Windows\Start Menu\Programs\为知笔记\为知笔记 Wiz.lnk
 ;<w-z>=run|c:\mine\app\AutoHotkey\AU3_Spy.exe
@@ -167,7 +167,7 @@ TCPath=C:\Marslo\MyProgramFiles\totalcmd\TOTALCMD64.EXE
 TCINI=C:\Marslo\MyProgramFiles\totalcmd\wincmd.ini
 
 ;是否在配置文件中记录Mark
-SaveMark=0
+SaveMark=1
 
 ;弹出菜单中的图标尺寸
 ;目前仅用于TC中的AZHistory导航:可用尺寸16,20,24,32
@@ -215,7 +215,6 @@ a=<cm_SelectAll>
 b=<cm_UnpackFiles>
 p=<cm_PackFiles>
 c=<cm_MkDir>
-;d=<TC_ListMark>
 e=<cm_edit>
 h=<TC_GoToParentEx>
 u=<TC_GoToParentEx>
