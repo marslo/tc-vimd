@@ -27,7 +27,7 @@ The configurations about ViAtc(TC) AND Everything
 ## PLEASE BACKUP YOUR CONFIG FILE FIRST!
 
 First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ctrl + P** check as below:
-![everything-ini-location](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/everything-ini-location.png?raw=true)
+![everything-ini-location](image/everything-ini-location.png)
 
 - If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then    
   Copy `TC-VimDesktop_Everything\Everything\APPDATA\Everything\Everything.ini` to `%APPDATA%\Everything`
@@ -41,6 +41,6 @@ First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ct
 
 # Screenshots:
 ## Total Command
-![VIATC_Marslo](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/Total_Command.png?raw=true)
+![viatc_marslo](image/Total_Command.png)
 ## Everything
-![Everything_Marslo](https://github.com/Marslo/TC-VimDesktop_Everything/blob/master/Images/Everything.png?raw=true)
+![everything_marslo](image/Everything.png)
