@@ -13,14 +13,14 @@ The configurations about ViAtc(TC) AND Everything
 
 ## Customized Shortcuts:
 - <kbd>e</kbd>: Edit file
-- **h**: Go to Parent foler
-- <del>**l**: Enter</del>
-- **gr**: Go to Root foler (c:\)
-- **F2**: Rename Signle file
-- **F4**: Open Context Menu
-- **Ctrl + F**: Search file
-- **Shift + Ctrl + F**: Search file by Everything
-- **Alt + D**: Select the current folder path
+- <kbd>h</kbd>: Go to Parent foler
+- <del><kbd>l</kbd>: Enter</del>
+- <kbd>gr</kbd>: Go to Root foler (c:\)
+- <kbd>F2</kbd>: Rename Signle file
+- <kbd>F4</kbd>: Open Context Menu
+- <kbd>ctrl</kbd> + <kbd>F</kbd>: Search file
+- <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd>: Search file by Everything
+- <kbd>Alt</kbd> + <kbd>D</kbd>: Select the current folder path
 
 # Everything:
 ## File localtion:
