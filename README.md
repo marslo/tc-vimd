@@ -12,7 +12,7 @@ The configurations about ViAtc(TC) AND Everything
 - Input `:setting`
 
 ## Customized Shortcuts:
-- **e**: Edit file
+- <kbd>e</kbd>: Edit file
 - **h**: Go to Parent foler
 - <del>**l**: Enter</del>
 - **gr**: Go to Root foler (c:\)
@@ -29,10 +29,13 @@ The configurations about ViAtc(TC) AND Everything
 First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ctrl + P** check as below:
 ![everything-ini-location](image/everything-ini-location.png)
 
-- If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then    
-  Copy `TC-VimDesktop_Everything\Everything\APPDATA\Everything\Everything.ini` to `%APPDATA%\Everything`
-- If NOT-CHECK this check box, then    
-  Copy `TC-VimDesktop_Everything\Everything\MyProgrammes\Everything\Everything.ini` to everything installation folder (e.g.: C:\Program Files\Everything)
+- If CHECK Store settings and data in %APPDATA%\Everything, this is the default setting, then
+
+  Copy `everything\APPDATA\Everything\Everything.ini` to `%APPDATA%\Everything`
+
+- If NOT-CHECK this check box, then
+
+  Copy `everything\MyProgrammes\Everything\Everything.ini` to everything installation folder (e.g.: C:\Program Files\Everything)
 
 ## Customized Shortcuts:
 - <del>**Alt + a**: trigger</del>
