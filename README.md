@@ -35,11 +35,11 @@ First of all, open `Everything Application` -> `Tools` -> `Options...`. OR  **Ct
 
 - If NOT-CHECK this check box, then
 
-  Copy `everything\MyProgrammes\Everything\Everything.ini` to everything installation folder (e.g.: C:\Program Files\Everything)
+  Copy `everything\MyProgrammes\Everything\Everything.ini` to everything installation folder (e.g.: `C:\Program Files\Everything`)
 
 ## Customized Shortcuts:
-- <del>**Alt + a**: trigger</del>
-- **F1**: trigger
+- <del><kbd>Alt</kbd> + <kbd>a</kbd>: trigger</del>
+- <kbd>F1</kbd>: trigger
 
 
 # Screenshots:
